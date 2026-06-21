@@ -13,6 +13,8 @@ clawhub install xpoz-setup
 | Skill | Description |
 |-------|-------------|
 | **xpoz-setup** | Set up and authenticate Xpoz MCP |
+| **xpoz-best-practices** | Reference guide — query syntax, response modes, field selection, all tools |
+| **xpoz-social-tracking** | Track keywords, users, subreddits, hashtags across platforms |
 | **xpoz-social-search** | Search Twitter, Instagram, TikTok, Reddit |
 | **reddit-api** | Reddit search and data |
 | **instagram-search** | Instagram search |

@@ -6,7 +6,7 @@ metadata:
   {
     "openclaw":
       {
-        "requires": { "bins": ["mcporter"], "skills": ["xpoz-setup"], "network": ["mcp.xpoz.ai"], "credentials": "Xpoz account (free tier) — auth via xpoz-setup skill (OAuth 2.1)" },
+        "requires": { "bins": ["mcporter"], "skills": ["xpoz-setup"], "network": ["mcp.xpoz.ai"], "credentials": "Xpoz account (free tier or instant trial) — auth via xpoz-setup skill" },
         "install": [{"id": "node", "kind": "node", "package": "mcporter", "bins": ["mcporter"], "label": "Install mcporter (npm)"}],
       },
   }
@@ -148,6 +148,6 @@ mcporter call xpoz.getRedditPostsByKeywords query="AI tools"
 
 ---
 
-**Website:** [xpoz.ai](https://xpoz.ai) • **Free tier available** • No Twitter developer account needed
+**Website:** [xpoz.ai](https://xpoz.ai) • **Free tier available** • **[Instant access](https://xpoz.ai/docs/trial)** (no signup) • No Twitter developer account needed
 
 Built for ClawHub • 2026

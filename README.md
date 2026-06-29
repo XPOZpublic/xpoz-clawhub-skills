@@ -26,7 +26,16 @@ clawhub install xpoz-setup
 
 ## Setup
 
-All skills require Xpoz MCP. Run `xpoz-setup` first:
+**Instant access (no signup):**
+
+```bash
+TOKEN=$(curl -s -X POST https://api.xpoz.ai/api/trial/token | jq -r .data.accessKey)
+mcporter config add xpoz https://mcp.xpoz.ai/mcp --header "Authorization=Bearer $TOKEN"
+```
+
+Trial tokens return up to 5 results per call, valid for 5 days. For full access, run `xpoz-setup`:
+
+**Full access:** All skills require Xpoz MCP. Run `xpoz-setup` first:
 
 ```bash
 clawhub install xpoz-setup

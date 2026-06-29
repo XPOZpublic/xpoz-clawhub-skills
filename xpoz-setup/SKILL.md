@@ -6,7 +6,7 @@ metadata:
   {
     "openclaw":
       {
-        "requires": { "bins": ["mcporter"], "network": ["mcp.xpoz.ai", "www.xpoz.ai"], "credentials": "Xpoz account (free tier) — obtained via Google OAuth during setup" },
+        "requires": { "bins": ["mcporter"], "network": ["mcp.xpoz.ai", "www.xpoz.ai"], "credentials": "Xpoz account (free tier or instant trial) — trial token or Google OAuth via setup" },
       },
   }
 tags:
@@ -28,6 +28,26 @@ This skill is a prerequisite for all Xpoz skills. It configures the Xpoz MCP ser
 ## Agent Instructions
 
 **If you're an agent reading this, follow these steps in order. The user should not need to run any commands.**
+
+### Step 0: Instant access (no signup needed)
+
+If the user just wants to try Xpoz quickly — no account, no OAuth, no browser:
+
+```bash
+TOKEN=$(curl -s -X POST https://api.xpoz.ai/api/trial/token | jq -r .data.accessKey)
+mcporter config add xpoz https://mcp.xpoz.ai/mcp --header "Authorization=Bearer $TOKEN"
+```
+
+Verify:
+```bash
+mcporter call xpoz.checkAccessKeyStatus
+```
+
+If `hasAccessKey: true` → **done.** Return to the skill that sent you here.
+
+**Limitations:** Valid 5 days, up to 5 results per call, no pagination or CSV export. For full access, continue with OAuth setup below.
+
+---
 
 ### Step 1: Check if already authenticated
 
@@ -276,6 +296,7 @@ OAuth tokens are managed by mcporter separately from the server config.
 
 | Plan | Price | Includes |
 |------|-------|----------|
+| Instant Access | Free | All read tools, 5 results/call, 5 days, no signup |
 | Free | $0/mo | Limited searches, all platforms |
 | Pro | $20/mo | Unlimited searches |
 | Max | $200/mo | Unlimited + priority + bulk export |

@@ -12,7 +12,7 @@ metadata:
             "skills": ["xpoz-setup"],
             "tools": ["web_search", "web_fetch"],
             "network": ["mcp.xpoz.ai"],
-            "credentials": "Xpoz account (free tier) — auth via xpoz-setup skill (OAuth 2.1)",
+            "credentials": "Xpoz account (free tier or instant trial) — auth via xpoz-setup skill",
           },
         "install": [{"id": "node", "kind": "node", "package": "mcporter", "bins": ["mcporter"], "label": "Install mcporter (npm)"}],
       },

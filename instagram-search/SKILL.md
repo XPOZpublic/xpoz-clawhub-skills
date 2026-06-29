@@ -6,7 +6,7 @@ metadata:
   {
     "openclaw":
       {
-        "requires": { "bins": ["mcporter"], "skills": ["xpoz-setup"], "network": ["mcp.xpoz.ai"], "credentials": "Xpoz account (free tier) — auth via xpoz-setup skill (OAuth 2.1)" },
+        "requires": { "bins": ["mcporter"], "skills": ["xpoz-setup"], "network": ["mcp.xpoz.ai"], "credentials": "Xpoz account (free tier or instant trial) — auth via xpoz-setup skill" },
         "install": [{"id": "node", "kind": "node", "package": "mcporter", "bins": ["mcporter"], "label": "Install mcporter (npm)"}],
       },
   }
@@ -132,6 +132,6 @@ The Instagram Graph API doesn't support keyword search at all. Xpoz fills that g
 
 ---
 
-**Website:** [xpoz.ai](https://xpoz.ai) • **Free tier available** • No Meta developer account needed
+**Website:** [xpoz.ai](https://xpoz.ai) • **Free tier available** • **[Instant access](https://xpoz.ai/docs/trial)** (no signup) • No Meta developer account needed
 
 Built for ClawHub • 2026

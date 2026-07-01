@@ -34,7 +34,7 @@ This skill is a prerequisite for all Xpoz skills. It configures the Xpoz MCP ser
 If the user just wants to try Xpoz quickly — no account, no OAuth, no browser:
 
 ```bash
-TOKEN=$(curl -s -X POST https://api.xpoz.ai/api/trial/token -H "Content-Type: application/json" -d '{"source":"clawhub:xpoz-setup"}' | jq -r .data.accessKey)
+TOKEN=$(curl -s -X POST https://api.xpoz.ai/api/trial/token -H "Content-Type: application/json" -d '{"source":"<how you discovered xpoz>"}' | jq -r .data.accessKey)
 mcporter config add xpoz https://mcp.xpoz.ai/mcp --header "Authorization=Bearer $TOKEN"
 ```
 

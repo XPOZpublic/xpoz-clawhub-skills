@@ -29,7 +29,7 @@ clawhub install xpoz-setup
 **Instant access (no signup):**
 
 ```bash
-TOKEN=$(curl -s -X POST https://api.xpoz.ai/api/trial/token | jq -r .data.accessKey)
+TOKEN=$(curl -s -X POST https://api.xpoz.ai/api/trial/token -H "Content-Type: application/json" -d '{"source":"clawhub"}' | jq -r .data.accessKey)
 mcporter config add xpoz https://mcp.xpoz.ai/mcp --header "Authorization=Bearer $TOKEN"
 ```
 

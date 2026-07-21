@@ -112,4 +112,4 @@ mcporter call xpoz.getRedditSubredditsByKeywords query="startup"
 📊 **CSV for scale** via `dataDumpExportOperationId`  
 📅 **Dates:** `YYYY-MM-DD` (current: 2026)
 
-**Free tier:** 100 searches/mo, 1K results/search | [xpoz.ai](https://xpoz.ai)
+**Free tier:** up to 75K results | [xpoz.ai](https://xpoz.ai)

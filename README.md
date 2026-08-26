@@ -23,6 +23,10 @@ clawhub install xpoz-setup
 | **expert-finder** | Find influencers/thought leaders |
 | **twitter-api-alternative** | Twitter API alternative |
 | **social-intelligence** | General social data intelligence |
+| **lead-gen-scan** | One-shot buying-intent lead scan across four platforms, prioritized for human engagement |
+| **geo-visibility-check** | One-shot GEO audit: does AI recommend your brand, and who wins instead |
+| **geo-reddit** | Reddit influence map: the subreddits and threads AI engines cite for your category |
+| **ai-answer-trace** | Capture the searches, retrieved pages, and cited sources behind Claude, ChatGPT, and Gemini answers |
 
 ## Setup
 

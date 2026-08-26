@@ -1,6 +1,6 @@
 ---
 name: twitter-api-alternative
-description: "Twitter API Alternative — Search 1B+ tweets with natural language queries, boolean filters, and one-click CSV exports (up to 64K rows). Look up profiles, find users by topic, and track conversations. No developer account needed, no complex OAuth setup — 2-minute setup via Xpoz MCP."
+description: "Twitter API Alternative: search a massive tweet index with natural language queries, boolean filters, and one-click CSV exports (up to 64K rows). Look up profiles, find users by topic, and track conversations. No developer account needed, no complex OAuth setup — 2-minute setup via Xpoz MCP."
 homepage: https://xpoz.ai
 metadata:
   {
@@ -27,7 +27,7 @@ tags:
 
 # Twitter API Alternative
 
-**Search 1B+ tweets with natural language queries — no developer account needed.**
+**Search tweets at massive scale with natural language queries, no developer account needed.**
 
 Get up and running in 2 minutes. Search tweets, look up profiles, find users by topic, track conversations, and export massive datasets to CSV. Built for AI agents via MCP, but simple enough for anyone.
 
@@ -105,11 +105,11 @@ Real example: **63,936 tweets in one CSV (38MB).**
 | Feature | Xpoz |
 |---------|------|
 | **Setup time** | 2 minutes — no developer portal, no app review |
-| **Search scale** | 1B+ tweets indexed, full archive included |
+| **Search scale** | Massive tweet index, continuously collected |
 | **Boolean queries** | `AND`, `OR`, `NOT`, exact phrases, grouping — all tiers |
 | **CSV export** | Built in — up to 64K rows per export, one click |
 | **Rate limits** | Handled automatically, no complex tier management |
-| **Multi-platform** | Also searches Instagram (400M+) and Reddit (100M+) |
+| **Multi-platform** | Also searches Instagram and Reddit |
 | **MCP-native** | Built for AI agents — structured data, not raw HTTP |
 | **Free tier** | Start searching immediately, upgrade when you need more |
 
@@ -131,10 +131,10 @@ Operators: `AND`, `OR`, `NOT`, `"exact phrase"`, `()` grouping.
 Xpoz isn't just for Twitter — search across platforms with the same simple interface:
 
 ```bash
-# Instagram (400M+ posts, including reel subtitles)
+# Instagram (including reel subtitles)
 mcporter call xpoz.getInstagramPostsByKeywords query="AI tools"
 
-# Reddit (100M+ posts & comments)
+# Reddit (posts & comments)
 mcporter call xpoz.getRedditPostsByKeywords query="AI tools"
 ```
 

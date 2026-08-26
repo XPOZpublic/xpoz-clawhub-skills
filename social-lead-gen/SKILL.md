@@ -1,6 +1,6 @@
 ---
 name: social-lead-gen
-description: "Lead generation from social media — find high-intent buyers in live Twitter, Instagram, and Reddit conversations. Auto-researches your product, generates targeted search queries, and discovers people actively looking for solutions you offer. Social selling and prospecting powered by 1.5B+ indexed posts."
+description: "Lead generation from social media — find high-intent buyers in live Twitter, Instagram, and Reddit conversations. Auto-researches your product, generates targeted search queries, and discovers people actively looking for solutions you offer. Social selling and prospecting powered by billions of indexed posts."
 homepage: https://xpoz.ai
 metadata:
   {
@@ -42,7 +42,7 @@ tags:
 
 **Find people who need your product — from what they're actually saying on social media.**
 
-Unlike traditional lead gen tools that search company databases, this skill finds **high-intent leads from live conversations**. It discovers people actively expressing the problems your product solves across Twitter, Instagram, and Reddit — powered by 1.5B+ indexed posts via Xpoz MCP.
+Unlike traditional lead gen tools that search company databases, this skill finds **high-intent leads from live conversations**. It discovers people actively expressing the problems your product solves across Twitter, Instagram, and Reddit, powered by billions of indexed posts via Xpoz MCP.
 
 ---
 

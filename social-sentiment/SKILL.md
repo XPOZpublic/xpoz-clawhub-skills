@@ -1,6 +1,6 @@
 ---
 name: social-sentiment
-description: "Sentiment analysis for brands and products across Twitter, Reddit, and Instagram. Monitor public opinion, track brand reputation, detect PR crises, surface complaints and praise at scale — analyze 70K+ posts with bulk CSV export and Python/pandas. Social listening and brand monitoring powered by 1.5B+ indexed posts."
+description: "Sentiment analysis for brands and products across Twitter, Reddit, and Instagram. Monitor public opinion, track brand reputation, detect PR crises, surface complaints and praise at scale: analyze 70K+ posts with bulk CSV export and Python/pandas. Social listening and brand monitoring powered by billions of indexed posts."
 homepage: https://xpoz.ai
 metadata:
   {

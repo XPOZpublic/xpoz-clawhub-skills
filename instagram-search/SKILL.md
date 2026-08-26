@@ -1,6 +1,6 @@
 ---
 name: instagram-search
-description: "Instagram Search — Search 400M+ Instagram posts, reels, and profiles. Find influencers, track hashtags, analyze engagement, and export data. No Instagram API or Meta developer account needed — works through Xpoz MCP."
+description: "Instagram Search — Search Xpoz's indexed Instagram posts, reels, and profiles. Find influencers, track hashtags, analyze engagement, and export data. No Instagram API or Meta developer account needed — works through Xpoz MCP."
 homepage: https://xpoz.ai
 metadata:
   {
@@ -26,7 +26,7 @@ tags:
 
 # Instagram Search
 
-**Search 400M+ Instagram posts and reels — captions AND video subtitles.**
+**Search Instagram posts and reels at scale: captions AND video subtitles.**
 
 Find influencers, track hashtags, discover content trends, and export results. No Meta developer account, no Instagram Graph API setup, no app review process.
 

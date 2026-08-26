@@ -1,6 +1,6 @@
 ---
 name: reddit-api
-description: "Reddit Search — Search posts, comments, users, and subreddits across 100M+ indexed Reddit entries. Find discussions, track topics, discover communities, and analyze engagement. No Reddit API key needed — works through Xpoz MCP with natural language queries."
+description: "Reddit Search: search posts, comments, users, and subreddits across Xpoz's indexed Reddit archive. Find discussions, track topics, discover communities, and analyze engagement. No Reddit API key needed; works through Xpoz MCP with natural language queries."
 homepage: https://xpoz.ai
 metadata:
   {
@@ -27,7 +27,7 @@ tags:
 
 # Reddit Search
 
-**Search 100M+ Reddit posts and comments without a Reddit API key.**
+**Search Reddit posts and comments at scale without a Reddit API key.**
 
 Find discussions, discover subreddits, look up users, and export results — all through Xpoz MCP. No Reddit API credentials needed, no rate limit headaches, no OAuth setup with Reddit.
 

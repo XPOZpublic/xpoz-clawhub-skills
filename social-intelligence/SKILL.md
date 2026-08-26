@@ -1,6 +1,6 @@
 ---
 name: social-intelligence
-description: "Social Intelligence — AI-powered social media research across Twitter, Instagram, and Reddit. 1.5B+ posts indexed. Find experts, generate leads, monitor brands, analyze sentiment, discover influencers, and export data. The complete social intelligence toolkit for AI agents via MCP."
+description: "Social Intelligence — AI-powered social media research across Twitter, Instagram, and Reddit. Billions of posts indexed. Find experts, generate leads, monitor brands, analyze sentiment, discover influencers, and export data. The complete social intelligence toolkit for AI agents via MCP."
 homepage: https://xpoz.ai
 metadata:
   {
@@ -30,7 +30,7 @@ tags:
 
 # Social Intelligence
 
-**The complete social intelligence platform for AI agents — 1.5B+ posts across Twitter, Instagram, and Reddit.**
+**The complete social intelligence platform for AI agents: billions of posts across Twitter, Instagram, and Reddit.**
 
 Xpoz turns your AI agent into a social media analyst. Search posts, find experts, generate leads, monitor brands, analyze sentiment, discover influencers — all through a single MCP server.
 
@@ -49,7 +49,7 @@ Run `xpoz-setup` skill. Verify: `mcporter call xpoz.checkAccessKeyStatus`
 ## What You Can Do
 
 ### 🔍 Search & Monitor
-Search posts across Twitter (1B+), Instagram (400M+), and Reddit (100M+) with boolean queries, date filters, and CSV export.
+Search posts across Twitter, Instagram, and Reddit with boolean queries, date filters, and CSV export.
 
 ```bash
 mcporter call xpoz.getTwitterPostsByKeywords query="your brand" startDate=2026-01-01
@@ -113,7 +113,7 @@ All skills share the same Xpoz MCP backend — authenticate once, use everywhere
 - **Multi-platform** — One tool for Twitter + Instagram + Reddit + TikTok
 - **MCP-native** — Built for AI agents, not dashboards
 - **Natural language** — Boolean queries, no coding required
-- **Massive scale** — 1.5B+ posts, CSV exports up to 64K rows
+- **Massive scale**: billions of posts, CSV exports up to 64K rows
 - **Affordable** — Free tier available, $20/mo for full access
 - **2-minute setup** — No API keys, no developer accounts
 

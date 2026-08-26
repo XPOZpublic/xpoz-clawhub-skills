@@ -1,6 +1,6 @@
 ---
 name: xpoz-social-search
-description: "Search Twitter, Instagram, and Reddit posts in real time. Find social media mentions, track hashtags, discover influencers, and analyze engagement — 1.5B+ posts indexed. Social listening, brand monitoring, and competitor research made easy for AI agents."
+description: "Search Twitter, Instagram, and Reddit posts in real time. Find social media mentions, track hashtags, discover influencers, and analyze engagement, with billions of posts indexed. Social listening, brand monitoring, and competitor research made easy for AI agents."
 homepage: https://xpoz.ai
 metadata:
   {
@@ -35,7 +35,7 @@ tags:
 
 # Xpoz Social Search
 
-**Multi-platform social search: 1.5B+ posts across Twitter, Instagram, Reddit.**
+**Multi-platform social search: billions of posts across Twitter, Instagram, Reddit.**
 
 Search posts, find people, discover conversations. Built on Xpoz MCP.
 

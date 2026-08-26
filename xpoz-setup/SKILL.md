@@ -233,7 +233,7 @@ Setup is complete. Go back to the skill that referenced this one and continue fu
 Xpoz is a remote MCP server for social media intelligence:
 
 - **Platforms:** Twitter, Instagram, TikTok, Reddit
-- **Scale:** 1.5B+ posts indexed
+- **Scale:** billions of posts indexed
 - **Features:** Search posts by keyword, find people by topic, profile lookup, engagement filtering, CSV export
 - **Auth:** OAuth 2.1 with dynamic client registration (PKCE, public clients)
 - **Setup:** Fully remote — no npm packages, no local installation, no API keys to copy

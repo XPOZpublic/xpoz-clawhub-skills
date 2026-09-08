@@ -27,6 +27,7 @@ clawhub install xpoz-setup
 | **geo-visibility-check** | One-shot GEO audit: does AI recommend your brand, and who wins instead |
 | **geo-reddit** | Reddit influence map: the subreddits and threads AI engines cite for your category |
 | **ai-answer-trace** | Capture the searches, retrieved pages, and cited sources behind Claude, ChatGPT, and Gemini answers |
+| **creator-authenticity-score** | Vet Instagram creators: view-based engagement rate, bot share of comments, and a 0-100 authenticity score |
 
 ## Setup
 

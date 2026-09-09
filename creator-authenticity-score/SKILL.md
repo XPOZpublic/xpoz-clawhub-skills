@@ -11,7 +11,7 @@ metadata:
             "bins": ["mcporter"],
             "skills": ["xpoz-setup"],
             "network": ["mcp.xpoz.ai"],
-            "credentials": "Xpoz account (free tier recommended; instant trial gives minimal data), auth via xpoz-setup skill",
+            "credentials": "Xpoz account (free tier), auth via xpoz-setup skill",
           },
         "install": [{"id": "node", "kind": "node", "package": "mcporter", "bins": ["mcporter"], "label": "Install mcporter (npm)"}],
       },
@@ -42,7 +42,7 @@ Scores Instagram creators on what a sponsor actually buys: real engagement (meas
 
 Run `xpoz-setup` skill. Verify: `mcporter call xpoz.checkAccessKeyStatus`
 
-Full results need a real Xpoz account: recommend the OAuth login in `xpoz-setup` (free tier, no credit card). A trial token also works, but every call then returns at most 5 results, so the score rests on one profile and a handful of posts and comments. If the user proceeds on a trial token, run anyway, mark the score **trial (minimal sample)**, and point them to [xpoz.ai/login](https://xpoz.ai/login) for full results.
+Full results need a real Xpoz account: recommend the OAuth login in `xpoz-setup` (free tier, no credit card).
 
 ## Scoring Process
 
